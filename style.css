@@ -7,7 +7,7 @@
 
 /* Style of entire body */
 body {
-    background-color: white;
+    background-color: #ecdcc9;
     margin: 5%;
 }
 
@@ -138,3 +138,158 @@ h2 {
     border-radius: 40px;
     opacity: 0.7;
 }
+
+/*The section about Nuestros animales: Gatos. */
+.cats {
+    background-color: #cac2b5;
+    padding: 5vh 0;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+
+/*The section about Nuestros animales: Perros. */
+.dogs {
+    background-color: #cac2b5;
+    padding: 5vh 0;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+
+/*The section: Nos ayudas - Dona, donate. */
+.donation {
+    background-color: #cac2b5;
+    padding: 5vh 0;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+
+.donation img {
+    width: 90vw;
+    max-width: 1600px;
+    min-width: 200px;
+    height: auto;
+    border-radius: 40px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.donation h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donation ul {
+    display: block;
+    list-style-type: disc;
+    padding-left: 40px;
+    padding-right: 8px;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    line-height: 1.5;
+    color: #5c3a28;
+}
+
+.donation li {
+    margin-bottom: 14px;
+}
+
+.payment-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.payment-buttons button {
+    padding: clamp(20px, 3vw, 30px) clamp(36px, 5vw, 60px);
+    font-size: clamp(22px, 3vw, 28px);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.25);
+    cursor: pointer;
+    min-height: 44px;
+}
+
+.payment-buttons button:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+button.paypal {
+    background-color: #c5ad86;
+}
+
+button.bizum {
+    background-color: #d5b177;
+}
+
+button.visa {
+    background-color: #e0c393;
+}
+
+
+
+
+/*The section: Contact form. */
+.contactus {
+    background-color: #cac2b5;
+    padding: 5vh 0;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+
+.contactus h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    font-size: 2vw;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+    color: #5b3a29;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.8rem 1rem;
+    font-size: 2vw;
+    border-radius: 14px;
+    border: 1px solid #aaa;
+    margin-top: 0.3rem;
+    background-color: #ecdcc9;
+    color: #2b1b12;
+}
+
+.contact-form button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    border-radius: 16px;
+    border: none;
+    background-color: #4a2f1b;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 6px 10px rgba(0,0,0,0.3);
+}
+
+.contact-form button:hover {
+    transform: translateY(-2px);
+}
+
