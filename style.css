@@ -1,0 +1,140 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style of entire body */
+body {
+    background-color: white;
+    margin: 5%;
+}
+
+/* Style of hero section */
+.hero-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vw;
+    color: #4a2f1b;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.hero-buttons button {
+    padding: clamp(20px, 3vw, 30px) clamp(36px, 5vw, 60px);
+    font-size: clamp(22px, 3vw, 28px);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.25);
+    cursor: pointer;
+    min-height: 44px;
+}
+
+.hero-buttons button:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+button.adoption {
+    background-color: #edd4b2;
+}
+
+button.donate {
+    background-color: #d0a98f;
+}
+
+button.contact {
+    background-color: #a6844e;
+}
+
+.hero img {
+    width: 90vw;
+    max-width: 1600px;
+    min-width: 200px;
+    height: auto;
+    border-radius: 40px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+nav {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    gap: 80px;
+    list-style-type: none;
+}
+
+.hero {
+    background-color: #cac2b5;
+    padding: 5vh 0;
+    border-radius: 40px;
+}
+
+/* The section "About Us: Nosotros" */
+.us {
+    background-color: #cac2b5;
+    padding: 5vh 0;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vw;
+    color: #4a2f1b;
+}
+
+.us h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.us ul {
+    display: block;
+    list-style-type: disc;
+    padding-left: 40px;
+    padding-right: 8px;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    line-height: 1.5;
+    color: #5c3a28;
+}
+
+.us li {
+    margin-bottom: 14px;
+}
+
+.us-logo {
+    width: 150px;
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 20px auto 0;
+    border-radius: 40px;
+    opacity: 0.7;
+}
