@@ -300,3 +300,10 @@ button.visa {
     padding: 20px 10px;
 }
 
+.header { margin-top: 20%;
+    background-color: #d0a98f; /* nude */
+    color: #ffffff;
+    font-family: Arial; 
+    text-align: center;
+    padding: 20px 10px;
+}
