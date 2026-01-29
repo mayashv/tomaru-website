@@ -139,13 +139,64 @@ h2 {
     opacity: 0.7;
 }
 
-/*The section about Nuestros animales: Gatos. */
-.cats {
+/*The section about Nuestros animales: Gatos y Perros. */
+.animals {
     background-color: #cac2b5;
     padding: 5vh 0;
     border-radius: 40px;
     margin-top: 60px;
 }
+
+.animals h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animals {
+    padding: 4vh 5vw;
+}
+
+.card-container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.animal-card {
+    background-color: #ecdcc9;
+    border-radius: 20px;
+    padding: 1.5rem;
+    width: 280px;
+    text-align: center;
+    box-shadow: 2px 6px 12px rgba(0,0,0,0.2);
+}
+
+.animal-card img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 14px;
+    margin-bottom: 1rem;
+}
+
+.animal-card h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: #3a2a1f;
+}
+
+.animal-card p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #3a2a1f;
+}
+
+
 
 /*The section about Nuestros animales: Perros. */
 .dogs {
